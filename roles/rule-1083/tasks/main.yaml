@@ -6,5 +6,5 @@
   register: output
 
 - debug:
-    var: output
+    var: ansible_net_interfaces.keys()
 
