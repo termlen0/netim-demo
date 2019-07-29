@@ -1,4 +1,10 @@
 ---
 
-- debug: var=inventory_hostname
-  delegate_to: localhost
+- name: Gather Interface Names
+  ios_facts:
+    gather_subset: interfaces
+  register: output
+
+- debug:
+    var: output
+
