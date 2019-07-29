@@ -1,6 +1,4 @@
 {"version": 2,
 "report_entries":[
-    {"severity":"ERROR","keystring":"f2858b53aa529a937f12922f22d21da0","associated_message":["\nFastEthernet1/1\n","\nFastEthernet0/0\n"],"oneline_message":"\nSubnet 192.168.196.0/24: dom [FastEthernet1/1] (MTU 1500 bytes), rome [FastEthernet0/0] (MTU 1348 bytes)\n","ruleid":"1083","problem_devices":[":230393:",":230399:"]},
-    {"severity":"ERROR","keystring":"f2858b53aa529a937f12922f22d21da0","associated_message":["\nFastEthernet1/1\n","\nFastEthernet0/0\n"],"oneline_message":"\nSubnet 192.168.196.0/24: dom [FastEthernet1/1] (MTU 1500 bytes), rome [FastEthernet0/0] (MTU 1348 bytes)\n","ruleid":"1083","problem_devices":[":230400:",":230499:"]},
-    {"severity":"ERROR","keystring":"f2858b53aa529a937f12922f22d21da0","associated_message":["\nFastEthernet1/1\n","\nFastEthernet0/0\n"],"oneline_message":"\nSubnet 192.168.196.0/24: dom [FastEthernet1/1] (MTU 1500 bytes), rome [FastEthernet0/0] (MTU 1348 bytes)\n","ruleid":"1099","problem_devices":[":230393:",":230399:"]}
+    {"severity":"ERROR","keystring":"f2858b53aa529a937f12922f22d21da0","associated_message":["\nFastEthernet1/1\n","\nFastEthernet0/0\n"],"oneline_message":"\nSubnet 192.168.196.0/24: dom [FastEthernet1/1] (MTU 1500 bytes), rome [FastEthernet0/0] (MTU 1348 bytes)\n","ruleid":"1083","problem_devices":[":230393:",":230399:"]}
 ]}
