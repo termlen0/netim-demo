@@ -8,6 +8,9 @@
 - set_fact:
     interfaces_list: "{{ansible_net_interfaces.keys()}}"
 
+- debug:
+    var: interfaces_list
+
 # - name: configure interface
 #   ios_interface:
 #       name: "{{ item }}"
@@ -20,6 +23,6 @@
 - debug:
     var: item
   loop: "{{ interfaces_list }}"
-  when: '"Fast" in interfaces_list'
+  when: '"Fast*" in interfaces_list'
 
 
