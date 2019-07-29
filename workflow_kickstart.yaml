@@ -12,4 +12,4 @@
 
   tasks:
     - debug:
-        msg: "Kicking off Multi Audit Fix Workflow"
+        msg: "Kicking off Multi Audit Workflow on {{inventory_hostname}}"
