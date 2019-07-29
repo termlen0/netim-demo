@@ -6,7 +6,7 @@
   register: output
 
 - set_fact:
-    interfaces_list: ansible_net_interfaces.keys()
+    interfaces_list: "{{ansible_net_interfaces.keys()}}"
 
 # - name: configure interface
 #   ios_interface:
