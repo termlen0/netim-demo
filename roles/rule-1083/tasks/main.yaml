@@ -20,6 +20,6 @@
 - debug:
     var: item
   loop: "{{ interfaces_list }}"
-  when: Fast in interfaces_list
+  when: 'Fast' in interfaces_list
 
 
