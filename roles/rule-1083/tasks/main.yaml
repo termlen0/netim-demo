@@ -5,6 +5,21 @@
     gather_subset: interfaces
   register: output
 
+- set_fact:
+    interface_list: ansible_net_interfaces.keys()
+
+# - name: configure interface
+#   ios_interface:
+#       name: "{{ item }}"
+#       speed: "{{ speed }}"
+#       duplex: "{{ duplex }}"
+#       mtu: "{{ mtu }}"
+#   loop: "{{ interfaces_list }}"
+#   when: Fast in interfaces_list
+
 - debug:
-    var: ansible_net_interfaces.keys()
+    var: item
+  loop: "{{ interfaces_list }}"
+  when: Fast in interfaces_list
+
 
