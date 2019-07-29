@@ -1,0 +1,5 @@
+---
+#Data Model Specs for Data Center - Rule 1083
+speed: "auto"
+duplex: "auto"
+mtu: "1500"

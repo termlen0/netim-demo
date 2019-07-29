@@ -11,18 +11,18 @@
 - debug:
     var: interfaces_list
 
-# - name: configure interface
-#   ios_interface:
-#       name: "{{ item }}"
-#       speed: "{{ speed }}"
-#       duplex: "{{ duplex }}"
-#       mtu: "{{ mtu }}"
-#   loop: "{{ interfaces_list }}"
-#   when: Fast in interfaces_list
-
-- debug:
-    var: item
+- name: configure interface
+  ios_interface:
+      name: "{{ item }}"
+      speed: "{{ speed }}"
+      duplex: "{{ duplex }}"
+      mtu: "{{ mtu }}"
   loop: "{{ interfaces_list }}"
   when: '"Fast" in item'
+
+# - debug:
+#     var: item
+#   loop: "{{ interfaces_list }}"
+#   when: '"Fast" in item'
 
 
