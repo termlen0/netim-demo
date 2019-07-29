@@ -1,0 +1,4 @@
+---
+
+- debug: var=inventory_hostname
+  delegate_to: localhost
