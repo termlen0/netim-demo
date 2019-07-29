@@ -1,0 +1,8 @@
+---
+
+- name: Gather Interface Names
+  ios_facts:
+
+- debug:
+    var: ansible_net_version
+
