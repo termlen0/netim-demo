@@ -1,0 +1,12 @@
+{"version": 2,
+"audited_devices":[
+{"num_errors":"0","hostname":"munich","hierarchical_name":"munich","num_warnings":"0","rules_reporting_problems":"0","applicable_rules":"1","score":"100.0","model":"Cisco 3620","device_oeid":":230922:","num_notes":"0"},
+{"num_errors":"0","hostname":"brussels","hierarchical_name":"brussels","num_warnings":"0","rules_reporting_problems":"0","applicable_rules":"1","score":"100.0","model":"Cisco 3620","device_oeid":":230920:","num_notes":"0"},
+{"num_errors":"1","hostname":"dom","hierarchical_name":"dom","num_warnings":"0","rules_reporting_problems":"1","applicable_rules":"1","score":"0.0","model":"Cisco 7206 VXR","device_oeid":":230393:","num_notes":"0"},
+{"num_errors":"0","hostname":"berlin","hierarchical_name":"berlin","num_warnings":"0","rules_reporting_problems":"0","applicable_rules":"1","score":"100.0","model":"Cisco 3620","device_oeid":":230397:","num_notes":"0"},
+{"num_errors":"0","hostname":"paris","hierarchical_name":"paris","num_warnings":"0","rules_reporting_problems":"0","applicable_rules":"1","score":"100.0","model":"Cisco 3620","device_oeid":":230395:","num_notes":"0"},
+{"num_errors":"1","hostname":"rome","hierarchical_name":"rome","num_warnings":"0","rules_reporting_problems":"1","applicable_rules":"1","score":"0.0","model":"Cisco 3620","device_oeid":":230399:","num_notes":"0"},
+{"num_errors":"0","hostname":"naples","hierarchical_name":"naples","num_warnings":"0","rules_reporting_problems":"0","applicable_rules":"1","score":"100.0","model":"Cisco 3620","device_oeid":":230791:","num_notes":"0"},
+{"num_errors":"0","hostname":"1124_lab","hierarchical_name":"1124_lab","num_warnings":"0","rules_reporting_problems":"0","applicable_rules":"0","score":"0","model":"Cisco C3550-24","device_oeid":":90529:","num_notes":"0"},
+{"num_errors":"0","hostname":"tools-r1-s1_lab_state_sbu","hierarchical_name":"tools-r1-s1_lab_state_sbu","num_warnings":"0","rules_reporting_problems":"0","applicable_rules":"1","score":"100.0","model":"Cisco C3550-24","device_oeid":":90527:","num_notes":"0"}
+]}
